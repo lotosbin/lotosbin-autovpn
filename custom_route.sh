@@ -7,3 +7,7 @@ route add -net 216.34.181.0/24 dev $1 #sourceforge.net
 #youtube
 route add -net 74.125.21.0/24 dev $1 #youtube.com
 route add -net 203.208.46.0/24 dev $1 #www.youtube.com
+
+
+#github.com
+route add -net 207.97.227.0/24 dev $1 #github.com
