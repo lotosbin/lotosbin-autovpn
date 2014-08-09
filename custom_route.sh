@@ -12,3 +12,6 @@ route add -net 203.208.46.0/24 dev $1 #www.youtube.com,accounts.youtube.com
 
 #github.com
 route add -net 207.97.227.0/24 dev $1 #github.com
+
+#amazon
+route add -net 72.52.4.0/24 dev $1 #s3.amazonaws.com
