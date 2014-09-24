@@ -19,3 +19,6 @@ route add -host 107.20.136.254 dev $1 #help.github.com
 
 #amazon
 route add -net 72.52.4.0/24 dev $1 #s3.amazonaws.com
+
+#www.bitbucketcards.com
+route add -net 184.73.167.0/24 dev $1
